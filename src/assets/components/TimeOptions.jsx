@@ -1,4 +1,4 @@
-// TimeOptions.jsx
+
 import React from "react";
 import { TfiTimer } from "react-icons/tfi";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
@@ -16,7 +16,7 @@ const TimeOptions = ({ selectedAmount, selectTime }) => {
     {
       label: "Unlimited",
       amount: "$1.00",
-      icon: null,
+      icon: null, //icon ka imageka ii soodirtay magaciisa ma agaani soo raadi
     },
   ];
 
